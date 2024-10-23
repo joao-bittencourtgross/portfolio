@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8" />
+    <title>João Victor - Desenvolvedor Full-Stack</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+      content="sites, web, desenvolvimento, full-stack, back-end, front-end, freelancer, desenvolvedor, programador, website, webapp, hospedagem"
+      name="keywords"
+    />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.png" rel="icon" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+    <link href="css/style.css" rel="stylesheet" />
+    <script
+      type="text/javascript"
+      src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=XBEGkQfuFn7Ys9InKdukWl8qJDWOLyZRg94dWGnFT3NtNbklNOGO9upgpOiZgK0AgM1I0dPcFneW2gHtX9Mwi04PPrPIBfd4SO3IY7LS-jQKfgVPTvzxL4bBdOVNQiCVmhp3Kq22qgGujDeBLxCfKDt17Xq149PX4DJhRpsaBf84JASHDcHadh0wEBnrr2Wqm6_7l-vgcwdNeXcLKU0F1Q"
+      charset="UTF-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=3fQ-7u7CSXF5sG6aQ-ZumxANX5lVXiIQvVJAC0OXrxEfAikzdC0m0KYJqv_wH7sDfXdYu16xySTwpcoZVQhxkqDKhfvZlvGDx9yqOYKiGoRtsI3Rsh5F6rhq8VlVt3wuRpME0fiRPMA7DQpONzj1IA8QpE0u6pe5b6U8qwgAfZ7trUQRBGTOEtmDFQPt-BOs14mGJ7g_b3NVjVztWqp1cw"
+      charset="UTF-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=PuP3R7tEhRjS4gf01Lnb639b2rFzvZqRIegjNfOLNL8BaFXe317HlOoB6X8PgiSIiXQ-DeskAWigfvQ3EZqcQR2QxkPXkoYtM8kD0pplpQnjjzdgPFcXSNd76a8qElugepPfckx6CLkK0lGO5uxj1CTgWE1UF3B2oeF4k5mlIkd6eUTM_SJOOHXjTj_qASRK-2Yj682Wpo7csdLPI3l6Vg"
+      charset="UTF-8"
+    ></script>
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Navbar Start -->
+    <nav
+      class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5"
+    >
+      <a href="index.html" class="navbar-brand ml-lg-3">
+        <h1 class="m-0 display-5">
+          <span class="text-primary">João</span>Victor
+        </h1>
+      </a>
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+        <div class="navbar-nav m-auto py-0">
+          <a href="#home" class="nav-item nav-link active">Início</a>
+          <a href="#about" class="nav-item nav-link">Sobre</a>
+          <a href="#qualification" class="nav-item nav-link"
+            >Experiência e Educação</a
+          >
+          <!--  <a href="#skill" class="nav-item nav-link">Skill</a> -->
+          <a href="#service" class="nav-item nav-link">Serviços</a>
+          <a href="#portfolio" class="nav-item nav-link">Portfólio</a>
+        </div>
+        <!-- Número de wpp -->
+        <a
+          href="https://api.whatsapp.com/send?phone=5546999182305&text=Olá,%20João%20Victor!%20Vi%20seu%20portfólio%20e%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços."
+          class="btn btn-outline-primary d-none d-lg-block"
+          >Contrate-me</a
+        >
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Video Modal Start -->
+    <div
+      class="modal fade"
+      id="videoModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <!-- 16:9 aspect ratio -->
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe
+                class="embed-responsive-item"
+                src=""
+                id="video"
+                allowscriptaccess="always"
+                allow="autoplay"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Video Modal End -->
+
+    <!-- Header Start -->
+    <div
+      class="container-fluid bg-primary d-flex align-items-center mb-5 py-5"
+      id="home"
+      style="min-height: 100vh"
+    >
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
+            <img
+              class="img-fluid w-100 rounded-circle shadow-sm"
+              src=""
+              alt=""
+            />
+          </div>
+          <div class="col-lg-7 text-center text-lg-left">
+            <h3 class="text-white font-weight-normal mb-3">Eu</h3>
+            <h1
+              class="display-3 text-uppercase text-primary mb-2"
+              style="-webkit-text-stroke: 2px #ffffff"
+            >
+              João Victor
+            </h1>
+            <h1
+              class="typed-text-output d-inline font-weight-lighter text-white"
+            ></h1>
+            <div class="typed-text d-none">
+              Desenvolvedor Web Full-Stack, Web Developer Full-Stack
+            </div>
+            <!-- <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+                        <a href="" class="btn btn-outline-light mr-5">Download CV</a>
+                         <button type="button" class="btn-play" data-toggle="modal"
+                            data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
+                            <span></span>
+                        </button> -->
+            <!-- <h5 class="font-weight-normal text-white m-0 ml-4 d-none d-sm-block">Play Video</h5> -->
+            <!-- </div>  -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+      <div class="container">
+        <div
+          class="position-relative d-flex align-items-center justify-content-center"
+        >
+          <h1
+            class="display-1 text-uppercase text-white"
+            style="-webkit-text-stroke: 1px #dee2e6"
+          >
+            Sobre mim
+          </h1>
+          <h1 class="position-absolute text-uppercase text-primary">
+            Sobre mim
+          </h1>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-lg-5 pb-4 pb-lg-0">
+            <img class="img-fluid rounded w-100" src="" alt="" />
+          </div>
+          <div class="col-lg-7">
+            <h3 class="mb-4">Desenvolvedor Full-Stack</h3>
+            <p>
+              Iniciei minha carreira na área de tecnologia em 2022, quando fui
+              contratado para a área de suporte. Rapidamente, migrei para a área
+              de programação, atuando em um sistema imobiliário chamado VGV
+              Control. Desde então, participei de grandes projetos como o
+              desenvolvimento de websites para a rede de supermercados Irani e
+              Portí, Mion Empreendimentos, Vero Perícias, WBS Embalagens, Apae
+              Cascavel, entre outras, também atuando como desenvolvedor
+              freelancer.
+            </p>
+            <div class="row mb-3">
+              <div class="col-sm-6 py-2">
+                <h6>
+                  Nome:
+                  <span class="text-secondary"
+                    >João Victor Bittencourt Gross</span
+                  >
+                </h6>
+              </div>
+              <div class="col-sm-6 py-2">
+                <h6>
+                  Aniversário: <span class="text-secondary">16/06/2004</span>
+                </h6>
+              </div>
+              <div class="col-sm-6 py-2">
+                <h6>
+                  Telefone: <span class="text-secondary">+55 46999182305</span>
+                </h6>
+              </div>
+              <div class="col-sm-6 py-2">
+                <h6>
+                  Email:
+                  <span class="text-secondary"
+                    >joaovictor@joaovictor.dev.br</span
+                  >
+                </h6>
+              </div>
+            </div>
+            <a
+              href="https://api.whatsapp.com/send?phone=5546999182305&text=Olá,%20João%20Victor!%20Vi%20seu%20portfólio%20e%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços."
+              class="btn btn-outline-primary mr-4"
+              >Contrate-me</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Qualification Start -->
+    <div class="container-fluid py-5" id="qualification">
+      <div class="container">
+        <div
+          class="position-relative d-flex align-items-center justify-content-center"
+        >
+          <h1
+            class="display-1 text-uppercase text-white"
+            style="-webkit-text-stroke: 1px #dee2e6"
+          >
+            Experiência
+          </h1>
+          <h1 class="position-absolute text-uppercase text-primary">
+            Experiência Profissional e Educação
+          </h1>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h3 class="mb-4">Minha educação</h3>
+            <div class="border-left border-primary pt-2 pl-4 ml-2">
+              <div class="position-relative mb-4">
+                <i
+                  class="far fa-dot-circle text-primary position-absolute"
+                  style="top: 2px; left: -32px"
+                ></i>
+                <h5 class="font-weight-bold mb-1">
+                  Análise e Desenvolvimento de Sistemas
+                </h5>
+                <p class="mb-2">
+                  <strong>Uninter</strong> | <small>Jan 2023 - Jun 2025</small>
+                </p>
+              </div>
+              <div class="position-relative mb-4">
+                <i
+                  class="far fa-dot-circle text-primary position-absolute"
+                  style="top: 2px; left: -32px"
+                ></i>
+                <h5 class="font-weight-bold mb-1">Udemy</h5>
+                <p class="mb-2">
+                  <strong>PHP do Zero a Maestria</strong> |
+                  <small>Out 2024</small>
+                </p>
+              </div>
+              <div class="position-relative mb-4">
+                <i
+                  class="far fa-dot-circle text-primary position-absolute"
+                  style="top: 2px; left: -32px"
+                ></i>
+                <h5 class="font-weight-bold mb-1">OneBitCode</h5>
+                <p class="mb-2">
+                  <strong>Desenvolvedor Full-Stack Javascript</strong> |
+                  <small>Jan 2024</small>
+                </p>
+              </div>
+              <div class="position-relative mb-4">
+                <i
+                  class="far fa-dot-circle text-primary position-absolute"
+                  style="top: 2px; left: -32px"
+                ></i>
+                <h5 class="font-weight-bold mb-1">Udemy</h5>
+                <p class="mb-2">
+                  <strong
+                    >Desenvolvimento responsivo com HTML5, CSS3 e
+                    Javascript</strong
+                  >
+                  |
+                  <small>Jan 2023</small>
+                </p>
+              </div>
+              <div class="position-relative mb-4">
+                <i
+                  class="far fa-dot-circle text-primary position-absolute"
+                  style="top: 2px; left: -32px"
+                ></i>
+                <h5 class="font-weight-bold mb-1">
+                  Colégio Estadual Padre Sigismundo
+                </h5>
+                <p class="mb-2">
+                  <strong
+                    >Ensino médio profissionalizante técnico em
+                    administração</strong
+                  >
+                  |
+                  <small>Jan 2019 a Dez 2022</small>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <h3 class="mb-4">Minha experiência</h3>
+            <div class="border-left border-primary pt-2 pl-4 ml-2">
+              <!-- <div class="position-relative mb-4">
+                <i
+                  class="far fa-dot-circle text-primary position-absolute"
+                  style="top: 2px; left: -32px"
+                ></i>
+                <h5 class="font-weight-bold mb-1">Front End</h5>
+                <p class="mb-2">
+                  <strong>Amexcom</strong> | <small>2022 - 2023</small>
+                </p>
+                <p>Desenvolvimento de sites e landing Pages.</p>
+              </div> -->
+
+              <div class="position-relative mb-4">
+                <i
+                  class="far fa-dot-circle text-primary position-absolute"
+                  style="top: 2px; left: -32px"
+                ></i>
+                <h5 class="font-weight-bold mb-1">Desenvolvedor Full-Stack</h5>
+                <p class="mb-2">
+                  <strong>VGV Control</strong> |
+                  <small>Jan 2023 - Set 2024</small>
+                </p>
+                <p>
+                  <strong>Desenvolvimento Front-End:</strong> • Responsável pelo
+                  desenvolvimento de novas interfaces de usuário, seguindo
+                  layouts estabelecidos no Adobe XD de maneira responsiva e de
+                  acordo com boas práticas. Realizei também a manutenção de
+                  páginas existentes e consumo de APls <br />
+                  <strong>Desenvolvimento Back-End:</strong> • Criação de novas
+                  funcionalidades para o sistema com qualidade e segurança,
+                  utilizando padrões de desenvolvimento atuais. Desenvolvimento
+                  de APls e modelagem de bancos de dados. <br />
+                  <strong>Tecnologias utilizadas:</strong> • HTML • CSS • LESS •
+                  SKELETON CSS • JAVASCRIPT • JQUERY • PHP • САКЕРНР • MYSQL
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Qualification End -->
+
+    <!-- Skill Start -->
+    <!-- <div class="container-fluid py-5" id="skill">
+      <div class="container">
+        <div
+          class="position-relative d-flex align-items-center justify-content-center"
+        >
+          <h1
+            class="display-1 text-uppercase text-white"
+            style="-webkit-text-stroke: 1px #dee2e6"
+          >
+            Skills
+          </h1>
+          <h1 class="position-absolute text-uppercase text-primary">
+            Minhas Habilidades
+          </h1>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">HTML</h6>
+                <h6 class="font-weight-bold">100%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-orange"
+                  role="progressbar"
+                  aria-valuenow="100"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">CSS</h6>
+                <h6 class="font-weight-bold">99%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-info"
+                  role="progressbar"
+                  aria-valuenow="99"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">Javascript</h6>
+                <h6 class="font-weight-bold">99%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-warning"
+                  role="progressbar"
+                  aria-valuenow="99"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">Less</h6>
+                <h6 class="font-weight-bold">98%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-less"
+                  role="progressbar"
+                  aria-valuenow="98"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">Next.js</h6>
+                <h6 class="font-weight-bold">80%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-next"
+                  role="progressbar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">MySQL</h6>
+                <h6 class="font-weight-bold">75%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-primary"
+                  role="progressbar"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">PHP/Cake PHP</h6>
+                <h6 class="font-weight-bold">70%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-danger"
+                  role="progressbar"
+                  aria-valuenow="70"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">React.js</h6>
+                <h6 class="font-weight-bold">95%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-blueing"
+                  role="progressbar"
+                  aria-valuenow="95"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">Vue.js</h6>
+                <h6 class="font-weight-bold">85%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-success"
+                  role="progressbar"
+                  aria-valuenow="85"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">Bootstrap</h6>
+                <h6 class="font-weight-bold">99%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-purple"
+                  role="progressbar"
+                  aria-valuenow="99"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">Sass</h6>
+                <h6 class="font-weight-bold">95%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-pink"
+                  role="progressbar"
+                  aria-valuenow="95"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">Git</h6>
+                <h6 class="font-weight-bold">90%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-orange"
+                  role="progressbar"
+                  aria-valuenow="90"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">Consumo de APIs Rest</h6>
+                <h6 class="font-weight-bold">90%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-info"
+                  role="progressbar"
+                  aria-valuenow="90"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">Typescript</h6>
+                <h6 class="font-weight-bold">80%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-blue"
+                  role="progressbar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- Skill End -->
+
+    <!-- Services Start -->
+    <div class="container-fluid pt-5" id="service">
+      <div class="container">
+        <div
+          class="position-relative d-flex align-items-center justify-content-center"
+        >
+          <h1
+            class="display-1 text-uppercase text-white"
+            style="-webkit-text-stroke: 1px #dee2e6"
+          >
+            Serviços
+          </h1>
+          <h1 class="position-absolute text-uppercase text-primary">
+            Meus serviços
+          </h1>
+        </div>
+        <div class="row pb-3">
+          <div class="col-lg-4 col-md-6 text-center mb-5">
+            <div class="d-flex align-items-center justify-content-center mb-4">
+              <h4 class="font-weight-bold m-0">Desenvolvimento de API's</h4>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center mb-5">
+            <div class="d-flex align-items-center justify-content-center mb-4">
+              <h4 class="font-weight-bold m-0">
+                Desenvolvimento de Sistemas Web
+              </h4>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center mb-5">
+            <div class="d-flex align-items-center justify-content-center mb-4">
+              <h4 class="font-weight-bold m-0">
+                Desenvolvimento de Sites Personalizados
+              </h4>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center mb-5">
+            <div class="d-flex align-items-center justify-content-center mb-4">
+              <h4 class="font-weight-bold m-0">
+                Desenvolvimento de E-commerce
+              </h4>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center mb-5">
+            <div class="d-flex align-items-center justify-content-center mb-4">
+              <h4 class="font-weight-bold m-0">Integração de Sistemas</h4>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center mb-5">
+            <div class="d-flex align-items-center justify-content-center mb-4">
+              <h4 class="font-weight-bold m-0">Hospedagem de Sites</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Services End -->
+
+    <!-- Portfolio Start -->
+    <div class="container-fluid pt-5 pb-3" id="portfolio">
+      <div class="container">
+        <div
+          class="position-relative d-flex align-items-center justify-content-center"
+        >
+          <h1
+            class="display-1 text-uppercase text-white"
+            style="-webkit-text-stroke: 1px #dee2e6"
+          >
+            portfólio
+          </h1>
+          <h1 class="position-absolute text-uppercase text-primary">
+            Meu portfólio
+          </h1>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center mb-2">
+            <ul class="list-inline mb-4" id="portfolio-flters">
+              <li
+                class="btn btn-sm btn-outline-primary m-1 active"
+                data-filter="*"
+              >
+                Destaques
+              </li>
+              <!--  <li
+                class="btn btn-sm btn-outline-primary m-1"
+                data-filter=".first"
+              >
+                Front-End
+              </li>
+              <li
+                class="btn btn-sm btn-outline-primary m-1"
+                data-filter=".second"
+              >
+                Back-End
+              </li>
+              <li
+                class="btn btn-sm btn-outline-primary m-1"
+                data-filter=".third"
+              >
+                Full-Stack
+              </li> -->
+            </ul>
+          </div>
+        </div>
+        <div class="row portfolio-container">
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+            <div class="position-relative overflow-hidden mb-2">
+              <img
+                class="img-fluid rounded w-100"
+                src="img/portfolio-1.jpg"
+                alt=""
+              />
+              <div
+                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
+              >
+                <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
+                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+            <div class="position-relative overflow-hidden mb-2">
+              <img
+                class="img-fluid rounded w-100"
+                src="img/portfolio-2.png"
+                alt=""
+              />
+              <div
+                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
+              >
+                <a href="img/portfolio-2.png" data-lightbox="portfolio">
+                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+            <div class="position-relative overflow-hidden mb-2">
+              <img
+                class="img-fluid rounded w-100"
+                src="img/portfolio-3.png"
+                alt=""
+              />
+              <div
+                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
+              >
+                <a href="img/portfolio-3.png" data-lightbox="portfolio">
+                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+            <div class="position-relative overflow-hidden mb-2">
+              <img
+                class="img-fluid rounded w-100"
+                src="img/portfolio-4.png"
+                alt=""
+              />
+              <div
+                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
+              >
+                <a href="img/portfolio-4.png" data-lightbox="portfolio">
+                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+            <div class="position-relative overflow-hidden mb-2">
+              <img
+                class="img-fluid rounded w-100"
+                src="img/portfolio-5.png"
+                alt=""
+              />
+              <div
+                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
+              >
+                <a href="img/portfolio-5.png" data-lightbox="portfolio">
+                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+            <div class="position-relative overflow-hidden mb-2">
+              <img
+                class="img-fluid rounded w-100"
+                src="img/portfolio-6.png"
+                alt=""
+              />
+              <div
+                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
+              >
+                <a href="img/portfolio-6.png" data-lightbox="portfolio">
+                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio End -->
+
+    <!-- Footer Start -->
+    <div
+      class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5"
+    >
+      <div class="container text-center py-5">
+        <div class="d-flex justify-content-center mb-4">
+          <a
+            class="btn btn-light btn-social mr-2"
+            href="https://www.linkedin.com/in/joao-victorbittencourt?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a
+            class="btn btn-light btn-social"
+            href="https://github.com/joao-bittencourtgross"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            class="btn btn-light btn-social ml-2"
+            href="https://www.instagram.com/joaovictorgr16/"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"
+      ><i class="fa fa-angle-double-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
